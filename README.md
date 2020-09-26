@@ -1,3 +1,3 @@
 # AI-assignment
 
-答案为0
+无解
