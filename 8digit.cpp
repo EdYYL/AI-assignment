@@ -5,7 +5,7 @@
 #include <queue>
 #define ll long long int
 using namespace std;
-int n,g=673014582;//0代表空
+int n,g=123456789;//0代表空
 short a[4][4],fx,fy,nx,ny;
 int dx[4]={1,-1,0,0};
 int dy[4]={0,0,1,-1}; //代表向四个方向移动
@@ -71,7 +71,7 @@ void solve()
 
 int main()
 {
-    scanf("%d",&n);
+    scanf("%d",&n);//输入673014582
     solve();
     if(flag==0) cout<<0<<endl;
     system("pause");
