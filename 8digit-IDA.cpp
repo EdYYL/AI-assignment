@@ -26,7 +26,7 @@ inline int h(char *cur) {
 		if (goal[i] != cur[i] && cur[i] != 0) res++;
 	}
 	return res;
-}
+}//估值函数，设置为与目标状态不同的格子数
 
 bool dfs (int depth, char *a, int pre) {
 	if (h(a) == 0) return true;
