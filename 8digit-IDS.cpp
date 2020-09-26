@@ -28,7 +28,7 @@ char mb[4][4]={
 '0','4','5','6',
 '0','7','8','0'
 };
-bool dfs(int step,int x,int y,int last,int sum)
+bool dfs(int step,int x,int y,int last,int sum)//sum为还有多少未匹配的格子数
 {
     if (step+sum>deep)return false;
     if (!sum)return true;
@@ -60,7 +60,7 @@ int main()
     {
         for (int j=1;j<=3;++j)
         {
-            m[i][j]=getchar();
+            m[i][j]=getchar();//输入673014582
             if (m[i][j]=='0')
             {
                 x=i;
